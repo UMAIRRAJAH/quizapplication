@@ -1,0 +1,50 @@
+* {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body.gr1 {
+      background-image: url(202003040652.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  body.gr2 {
+      background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+  }
+  
+  .card-text {
+      cursor: pointer;
+      padding: 5px 10px;
+      color: purple;
+  }
+  
+  .card-text:hover,
+  .active {
+      background-color: lime;
+      color: #fff;
+  }
+  
+   
+  
+
+  
+  .card-body p {
+      padding: 12px ;
+  }
+  
+  .text-theme {
+      color: #0f0c29;
+  }
+  
+  .mt-10 {
+      margin-top: 10rem !important;
+  }
+  
+  .mt-6 {
+      margin-top: 6rem !important;
+  }
+  
+  .w-15 {
+      max-width: 15%;
+  }

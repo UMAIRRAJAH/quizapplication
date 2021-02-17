@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Result-Report</title>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style3.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+            .container{
+                  text-align: center;
+                  background-color: darkorange;
+                  
+            }
+            .mt-2{
+                  color: pink;
+            }
+            .mb-3{
+                  color: #9c88ff;
+                  font-size: 30px;
+            }
+            .btn-theme{
+                  color: red;
+            }
+      </style>
+
+</head>
+<body>
+
+      <body onload="renderResult()" class="container">
+
+            <div class="container">
+                <div class="row mt-6">
+                    <div class="col-md-12 text-center">
+                        <img src="result.png" class="img-fluid" alt="Responsive image" height="100px">
+                        <h1 class="text-center mt-2">Your Result </h1>
+                        
+                        
+                        <h3 class="text-theme font-weight-bold mb-3" id="result"></h3>
+                        
+                        <a href="javascript:void(0)" class="btn btn-theme" id="btn-start" onclick="takeAgain()">Start Quiz Again <i class="fa fa-refresh fa-spin" style="font-size:24px"></i></i></a>
+                    </div>
+                </div>
+            </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            
+            
+            <script src="app.js"></script>
+</body>
+</html>
